@@ -20,12 +20,12 @@ int main()  {
     // process
     if (guessed_number == NUMBER) {
         // output
-        std::cout << "You are correct!! " << std::endl;
+        std::cout << "You are right!! :)" << std::endl;
     }
 
 
     if (guessed_number != NUMBER) {
         // output
-        std::cout << "You are wrong! Try again" << std::endl;
+        std::cout << "You are wrong! :(" << std::endl;
     }
 }
